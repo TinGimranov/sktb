@@ -28,7 +28,3 @@ def login():
 def logout():
     session.pop('user')
     return redirect(url_for('login'))
-
-
-def test():
-    pass
